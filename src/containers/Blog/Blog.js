@@ -8,7 +8,7 @@ import './Blog.css';
 class Blog extends Component {
   state = {
     posts: [],
-    selectedPostId: undefined
+    selectedPostId: null
   };
 
   componentDidMount() {
